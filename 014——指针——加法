@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main()
+{
+	int a=3,b=4;
+	int *p=&a,*o=&b;
+
+	printf("%d+%d=%d",*p,*o,*p+*o);
+	getchar();
+}
