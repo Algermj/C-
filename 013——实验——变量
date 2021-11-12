@@ -1,0 +1,15 @@
+#include<stdio.h>
+void shiyan(int  q);
+void main()
+{
+	int  a=5;
+
+	printf("输入前：%d",a);
+	shiyan(a);
+	printf("输入后：%d",a);
+	getchar();
+}
+void shiyan(int  q)
+{
+	q+=10;
+}
