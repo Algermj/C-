@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+void  main()
+{
+while(1)
+  {
+	int  i,a,sum1=0,sum2=0;
+  	scanf("%d",&i);
+
+		for(a=0;a<=i;a++)
+		{
+		    if(a%2==0)
+			{
+			 sum1=sum1+a;
+			}
+	       	else
+			{
+			sum2=sum2+a;
+			}
+		}
+		 printf("偶数和=%d;	奇数和=%d	",sum1,sum2);
+		
+	
+  }
+
+
+}
