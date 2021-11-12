@@ -1,0 +1,33 @@
+#include<stdio.h>
+void main()
+{	int i,z;
+	while(1)
+	{
+		scanf("%d",&z);
+		i=z/100;
+		if(z<0)
+				{
+					printf("“输入有误，请重新输入!!”。");
+				}
+		switch(i)
+		{
+			case 0:printf("不打折!!金额%d元\n",z);break;
+			case 1:printf("九七折!!金额%d元\n",z*=0.97);break;
+			case 2:
+			case 3:
+			case 4:printf("九五折!!金额%d元\n",z*=0.95);break;
+			case 5:
+			case 6:
+			case 7:
+			case 8:			
+			case 9:printf("九折!!金额%d元\n",z*=0.9);break;
+			default :
+				{
+					printf("八折!!金额%d元\n",z*=0.8);
+				}
+				
+				
+		}
+	}
+
+}
