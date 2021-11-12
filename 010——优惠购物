@@ -1,0 +1,34 @@
+#include<stdio.h>
+void main()
+{
+	int a;
+	while(1)
+	{
+		printf("请输入金额\n");
+		scanf("%d",&a);
+		if(a>=1000)
+		{
+			a*=0.8;
+			printf("%d元\n",a);
+		}
+		else if(a>=500)
+		{
+			a*=0.95;
+            printf("%d\n元",a);
+		}
+    	else if(a>=200)
+		{
+			a*=0.97;
+            printf("%d元\n",a);
+		}
+		else
+		{
+			a=a;
+			printf("%d元\n",a);
+		}
+		if(a<=0)
+		{
+			printf("请输入正确值\n");
+		}
+	}
+}
