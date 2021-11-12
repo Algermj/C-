@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int	a=33,b=23;
+int	 c;
+void main()
+{
+	c=a%b;
+	printf("%d\n",c);
+   
+	getchar();
+}
