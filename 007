@@ -1,0 +1,20 @@
+#include<stdio.h>					//头文件
+void main()							//主函数
+{
+	char  i;						//变量
+	for(i=0;;i++)					//for循环函数
+	{
+		if(i%3==2)					//判断i除以3余2,i的值
+		{
+			if(i%5==3)				//判断i除以5余3,i的值
+			{
+				if(i%7==2)			//判断i除以7余2,i的值
+				{
+					break;			//跳出循环
+				}
+			}
+		}
+	}
+ printf("i=%d",i);					//显示输出值
+	getchar();
+}
