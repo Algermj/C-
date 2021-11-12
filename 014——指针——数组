@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{
+	int i,a[]={'H','e','l','l','o','W','o','r','l','d'};
+	int *p=&a[9];
+	for(i=0;i<10;i++)
+	{
+		printf("a[%d]:%c;	地址:0x%08x\n",9-i,*(p-i),(p-i));
+	}
+	getchar();
+}
