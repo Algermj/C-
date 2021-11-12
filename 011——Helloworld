@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+	
+		int m;		
+		char a[]={'H','e','l','l','o','W','o','r','l','d'};
+	    	
+		for(m=9;m>=0;m--)
+			{
+				printf("%c",a[m]);
+			}
+		getchar();
+}
