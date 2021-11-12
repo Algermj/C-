@@ -1,0 +1,25 @@
+#include<stdio.h>
+void main()
+{
+	while(1)
+	{
+		int x,y,z,i,m;
+		scanf("%d%d%d",&x,&y,&z);	    
+	    while(1)
+		{
+		//	char a[]={'H','i','!','!'};
+	    	int  daoxu[]={x,y,z};
+		/*	for(m=0;m<4;m++)
+			{
+				printf("%c",a[m]);
+			}
+*/
+			for(i=2;i>=0;i--)
+			{
+		        printf("%d",daoxu[i]);
+			}
+		     	printf("\n");
+		break;
+		}
+	}	
+}
