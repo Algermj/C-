@@ -1,0 +1,23 @@
+#include<stdio.h>						//头文件
+	void main()							//主函数
+	{
+			while(1)
+		{
+		int  q,i,j=0;						//整型变量   定义
+		float n,m;						//浮点型变量   定义
+    	scanf("%d",&q);					//输入值
+		for(i=0;i<=q;i++)				//循环函数
+		{
+		j=j+i;
+		//输出值
+		}
+        m=j;
+		printf("\n");					//另起一行
+		n=m/q;						    //计算公式
+    	printf("平均值=%.2f/%d=%.2f	",m,q,n);		//输出值
+		continue;
+		}			
+	    
+}		
+		
+		
