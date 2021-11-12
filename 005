@@ -1,0 +1,16 @@
+#include<stdio.h>						//头文件
+	void main()							//主函数
+	{
+		int  i,j=0;						//整型变量   定义
+		float n,m;						//浮点型变量   定义
+		for(i=0;i<100;i++)				//循环函数
+		{
+		j=j+i;
+		printf("%d  ,  %d	;   ",i,j);		//输出值
+		}
+        m=j;
+		printf("\n");					//另起一行
+		n=m/100;						//计算公式
+    	printf("平均值=%.2f/100=%.2f",m,n);		//输出值
+		getchar();						//输入一个值，按回车后返回1
+	}
