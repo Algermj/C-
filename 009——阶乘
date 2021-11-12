@@ -1,0 +1,15 @@
+#include<stdio.h>
+void  main()
+{
+	while(1)
+	{
+		char  i,a=1,q;
+		scanf("%d",&q);
+	    for(i=q;i>0;i--)
+		{
+		a=a*i;
+		}
+    	printf("%d",a);
+	
+	}
+}
