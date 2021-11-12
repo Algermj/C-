@@ -1,0 +1,24 @@
+#include<stdio.h>
+void main()
+{
+	int arr[]={22,55,11,0,9,-2};
+	int q;
+	int *p=&arr[0];
+	for(q=0;q<=5;q++)
+	{
+		if(*p<arr[q])
+		{
+			*p=arr[q];
+		}
+	}
+	printf("最大值:%d\n",*p);
+		for(q=0;q<=5;q++)
+	{
+		if(*p>arr[q])
+		{
+			*p=arr[q];
+		}
+	}
+	printf("最小值:%d",*p);
+	getchar();
+}
