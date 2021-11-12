@@ -1,0 +1,21 @@
+#include<stdio.h>
+void main()
+{
+	int a=100,b=5,c=65;
+	int arr[10];
+	int *p;
+	printf("地址	a:0x%08X	b:0x%08X	c:0x%08X	p:0x%08X\n",&a,&b,&c,&p);
+	for(a=0;a<10;a++)
+	{
+			printf("地址	arr[%d]:0x%08X\n",a,&arr[a]);
+	}
+	p=&b;
+	printf("b=%d;p=%d\n",b,*p);
+	*p+=52;
+	printf("b=%d;p=%d\n",b,*p);
+	p=&a;
+	printf("b=%d;p=%d\n",a,*p);
+	*p=5000;
+	printf("b=%d;p=%d\n",a,*p);
+	getchar();
+}
