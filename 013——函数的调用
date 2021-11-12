@@ -1,0 +1,16 @@
+#include<stdio.h>
+int a,b,shuzu[7]={0,254,453,528,648,875,583};
+int diaoyong(char i)
+{
+	b=shuzu[i];return b;
+}
+void main()
+{
+	while(1)
+	{
+		printf("请输入“1---6”调用数字!	");
+		scanf("%d",&a);
+		printf("%d\n",diaoyong(a));
+	}
+}
+
