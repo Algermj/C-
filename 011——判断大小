@@ -1,0 +1,24 @@
+#include<stdio.h>
+void main()
+{
+	int shu[]={3213,46131,646,84164,91348,6546,4687,4615,655,98761};
+	int q,w=0,e;
+	for(q=0;q<10;q++)
+	{
+		if(w<shu[q])
+		{
+			w=shu[q];
+		}		
+	}
+	e=w;
+	for(q=0;q<10;q++)
+	{
+		if(e>shu[q])
+		{
+			e=shu[q];
+		}
+	}
+	printf("最大值：%d",w);
+	printf("最小值：%d",e);
+	getchar();
+}
